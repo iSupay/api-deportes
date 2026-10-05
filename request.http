@@ -1,0 +1,42 @@
+### Obtener todos los deportes
+GET http://localhost:3000/deportes
+
+###
+
+### Obtener un deporte por ID
+GET http://localhost:3000/deportes/1
+
+###
+
+### Crear un nuevo deporte
+POST http://localhost:3000/deportes
+Content-Type: application/json
+
+{
+  "nombre": "Voleibol",
+  "escenario": "Cancha techada de piso sintético",
+  "dimensiones": "18m x 9m",
+  "numero_de_elementos": 6,
+  "equipo": {
+    "short": "Short corto",
+    "playera": "Jersey ajustado",
+    "tacos": "Tenis de cancha con amortiguación",
+    "medias": "Calcetas cortas"
+  },
+  "pais": "Estados Unidos"
+}
+
+###
+
+### Actualizar un deporte 
+PUT http://localhost:3000/deportes/1
+Content-Type: application/json
+
+{
+  "escenario": "Cancha de césped híbrido profesional"
+}
+
+###
+
+### Eliminar un deporte 
+DELETE http://localhost:3000/deportes/1

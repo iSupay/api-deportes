@@ -1,0 +1,74 @@
+{
+  "deportes": [
+    {
+      "id": "1",
+      "nombre": "Fútbol Soccer",
+      "escenario": "Cancha de césped natural",
+      "dimensiones": "105m x 68m",
+      "numero_de_elementos": 11,
+      "equipo": {
+        "short": "Corto deportivo",
+        "playera": "Jersey de manga corta",
+        "tacos": "Botines con tachones",
+        "medias": "Medias largas"
+      },
+      "pais": "Inglaterra"
+    },
+    {
+      "id": "2",
+      "nombre": "Baloncesto",
+      "escenario": "Duela techada",
+      "dimensiones": "28m x 15m",
+      "numero_de_elementos": 5,
+      "equipo": {
+        "short": "Short holgado",
+        "playera": "Camisola sin mangas",
+        "tacos": "Tenis de caña alta",
+        "medias": "Calcetas deportivas"
+      },
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": "3",
+      "nombre": "Voleibol de Playa",
+      "escenario": "Cancha de arena al aire libre",
+      "dimensiones": "16m x 8m",
+      "numero_de_elementos": 2,
+      "equipo": {
+        "short": "Short deportivo corto",
+        "playera": "Camisola o traje de baño deportivo",
+        "tacos": "Sin calzado (juego descalzo sobre arena)",
+        "medias": "Sin calcetas"
+      },
+      "pais": "Brasil"
+    },
+    {
+      "id": "4",
+      "nombre": "Tenis",
+      "escenario": "Cancha de superficie dura",
+      "dimensiones": "23.77m x 8.23m",
+      "numero_de_elementos": 1,
+      "equipo": {
+        "short": "Short con bolsillos",
+        "playera": "Polo deportiva transpirable",
+        "tacos": "Tenis con suela de tracción para cancha",
+        "medias": "Calcetas deportivas"
+      },
+      "pais": "Reino Unido"
+    },
+    {
+      "id": "5",
+      "nombre": "Béisbol",
+      "escenario": "Campo de césped y diamante de tierra",
+      "dimensiones": "90 pies entre bases",
+      "numero_de_elementos": 9,
+      "equipo": {
+        "short": "Pantalón deportivo largo",
+        "playera": "Jersey abotonado",
+        "tacos": "Botines con tachones deportivos",
+        "medias": "Medias altas"
+      },
+      "pais": "Estados Unidos"
+    }
+  ]
+}
